@@ -3,3 +3,10 @@
 .container {
   background: red;
 }
+
+.logo {
+  background-image: url("../assets/head.png");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
