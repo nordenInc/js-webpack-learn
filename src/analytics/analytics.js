@@ -1,8 +1,8 @@
-function getAnalytics(): object {
+function getAnalytics() {
   let counter = 0;
-  let isDestoyed: boolean = false;
+  let isDestoyed = false;
 
-  const listener = (): number => counter++;
+  const listener = () => counter++;
 
   document.addEventListener("click", listener);
 

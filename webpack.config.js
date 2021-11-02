@@ -25,8 +25,8 @@ const filename = (ext) => (isDev ? `[name].${ext}` : `[name].[hash].${ext}`);
 module.exports = {
   context: path.resolve(__dirname, "src"),
   entry: {
-    main: ["@babel/polyfill", "./index.tsx"],
-    analytics: "./analytics/analytics.ts",
+    main: ["@babel/polyfill", "./index.js"],
+    analytics: "./analytics/analytics.js",
   },
   devServer: {
     port: 5000,
