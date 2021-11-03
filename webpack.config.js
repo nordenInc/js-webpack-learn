@@ -26,10 +26,9 @@ module.exports = {
   context: path.resolve(__dirname, "src"),
   entry: {
     main: ["@babel/polyfill", "./index.js"],
-    analytics: "./analytics/analytics.js",
   },
   devServer: {
-    port: 5000,
+    port: 7000,
     hot: isDev,
   },
   devtool: isDev ? "source-map" : "",
